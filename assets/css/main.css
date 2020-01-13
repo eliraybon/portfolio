@@ -2225,6 +2225,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				color: #fff;
+				/* color: rgb(48, 166, 74); */
 				font-size: 6em;
 				height: 1em;
 				left: 50%;
