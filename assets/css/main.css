@@ -114,13 +114,13 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: rgb(48, 166, 74);
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom: 1px solid rgb(48, 166, 74);
 		}
 
 	strong, b {
@@ -2178,7 +2178,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/damper.png");
+			/* background-image: url("images/damper.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2236,6 +2236,7 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
+				display: none;
 			}
 
 			.image.icon:hover:before {

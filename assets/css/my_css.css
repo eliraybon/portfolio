@@ -42,9 +42,25 @@
   width: 100%;
 }
 
-.fa-robot {
-  color: rgb(41, 196, 74);
+.skills {
+  display: flex;
+  justify-content: space-between;
 }
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: auto;
+}
+
+.skill-image {
+  width: 60px;
+  height: 60px;
+}
+
 
 
 @media screen and (max-width: 575px) {
