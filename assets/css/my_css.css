@@ -6,3 +6,44 @@
   border-radius: 50%;
   z-index: 100000;
 }
+
+.my-info {
+  display: flex;
+  justify-content: center;
+}
+
+.link-icons {
+  display: flex; 
+  justify-content: space-between;
+  width: 15vw;
+  min-width: 100px;
+  margin-top: 10px;
+}
+
+.link-icon {
+  width: 2vw;
+  height: auto;
+  min-width: 20px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .resume {
+    margin-bottom: 10px;
+  }
+}
