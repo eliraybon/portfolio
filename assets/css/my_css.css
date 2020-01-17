@@ -61,6 +61,10 @@
   height: 60px;
 }
 
+.email-footer {
+  margin-bottom: 5px;
+}
+
 
 
 @media screen and (max-width: 575px) {
